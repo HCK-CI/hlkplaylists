@@ -1,7 +1,8 @@
 rm *.xml
 wget http://aka.ms/hlkplaylist
 unzip hlkplaylist
-rm hlkplaylist
+mv CompatPlaylists/* .
+rm -r hlkplaylist CompatPlaylists
 
 mv 'HLK Version 1607 CompatPlaylist.xml'         '1607.xml'
 mv 'HLK Version 1703 CompatPlaylist.xml'         '1703.xml'
