@@ -6255,18 +6255,12 @@
 <Test Id="de940fe5-5f8a-41d0-b046-dbf38ef80f7d" Name="WGF11 Async - DeferredContext (WoW64) " Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
-<Test Id="13e51eaf-cd03-4249-a490-8a93698691cc" Name="WGF11 Async (Mobile)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
-</Test> 
 <Test Id="cfa25576-4f48-48f8-939d-52b2b36a7fc4" Name="WGF11 Async (subset)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
 <Test Id="30033a87-d821-4bda-977f-4b786dae0533" Name="WGF11 Async (WoW64) " Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
-</Test> 
-<Test Id="6e2f7dd3-25c3-41f0-84b2-81615396fc92" Name="WGF11 Async Deferred (Mobile)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 </Test> 
 <Test Id="2ea1c8f4-c461-438e-a2a8-85b01ee00f11" Name="WGF11 Blend" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
@@ -6293,9 +6287,6 @@
 <Test Id="9faee922-f2cf-4dfe-8a0b-c464a216f535" Name="WGF11 Blend (Featurelevel 10.0) (Pri-1) (WoW64)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
-<Test Id="d2d063e9-93de-44ec-abc5-5e96b777521c" Name="WGF11 Blend (Mobile)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
-</Test> 
 <Test Id="aff7ae8a-d197-458d-83a6-6417b85fd02d" Name="WGF11 Blend (subset)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
@@ -6307,18 +6298,12 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
-<Test Id="71d00d60-f41e-46bf-9ac4-fc2abe885e0c" Name="WGF11 Clipping (Mobile)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
-</Test> 
 <Test Id="1a0c11a4-35bc-4595-90c3-1b25e3c627b5" Name="WGF11 Clipping (subset)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
 <Test Id="d18b6661-a2ba-48de-b048-5a3baeb30f44" Name="WGF11 Clipping (WoW64) " Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
-</Test> 
-<Test Id="67bb1d1f-fce3-48f2-9eb7-19ed4fc3a7c1" Name="WGF11 Compute (Mobile)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 </Test> 
 <Test Id="dba2b248-368c-4193-b458-8570632ca287" Name="WGF11 Compute Shader" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
@@ -9102,6 +9087,10 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
+<Test Id="841086ff-6142-4f1c-af69-eda544898a5b" Name="GDL Correctness Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
 <Test Id="7f8c935b-a57a-4e9f-a49a-d58165e7eb83" Name="INF Syntax Test" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
@@ -9134,6 +9123,14 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
+<Test Id="cc7c0cbd-6369-4073-9f40-2af64008698c" Name="PGremlin Rendering Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="3b486373-061c-449d-897d-f476b50dc782" Name="PGremlin2 Rendering Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
 <Test Id="64fb7691-45aa-4016-bf2a-aff784797afe" Name="Photo Print Test" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
@@ -9146,7 +9143,43 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
+<Test Id="0299ff0c-69e9-4ba5-bd2c-8bf47f805c3f" Name="Print Driver Device Capabilities Test (PrDeviceCapabilities)" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="448e0c78-58ae-452a-b69d-b1f6ffc74a8c" Name="Print Driver DevMode Corruptor Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="84f54ad9-f24e-486d-9300-ce8859e0d151" Name="Print Driver Stress Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
 <Test Id="2eba0c55-5ab8-4aea-8c8d-642fe7f251bb" Name="Print Processor API Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="4c7a05fa-2885-40d5-8056-a8817ad7811b" Name="Printable Area Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="f96d946b-f0b9-4886-aa13-aab6de13a899" Name="Printer CompatibleID Test - USB" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="4d48e54b-bddf-444d-9bef-ea36d888bf40" Name="Printer CompatibleID Test - WSD" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="d992ff6e-f739-4523-ae89-ea761c266111" Name="Printer Port Monitor MIB Verification Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="b0f44f97-6884-4d9a-a875-dd522de1df01" Name="PrintTicket Conformance Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
+</Test> 
+<Test Id="59c36ef2-9ec8-494e-bbaa-8fed2dacd376" Name="PrintTicket Test" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS3 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS3 Full" /> 
 </Test> 
