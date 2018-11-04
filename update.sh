@@ -1,8 +1,7 @@
 rm *.xml
 wget http://aka.ms/hlkplaylist
 unzip hlkplaylist
-mv CompatPlaylists/* .
-rm -r hlkplaylist CompatPlaylists
+rm -r hlkplaylist
 
 # Playlists supported by AutoHCK
 mv 'HLK Version 1607 CompatPlaylist.xml'            '1607.xml'
