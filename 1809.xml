@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>  
 <!-- Copyright (c) Microsoft. All rights reserved. -->  
 <Playlist Id="7b250458-1532-4d0a-980c-ea4a853a4802" Name="RS5 WHCP CX86/CX64" Version="1.0" xmlns="http://schemas.microsoft.com/hlk/playlist/2014"> 
+<Test Id="7f8c935b-a57a-4e9f-a49a-d58165e7eb83" Name="INF Syntax Test" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
+<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
+</Test>
 <Test Id="571bd021-64f5-4cd1-9ba4-8abd0857025f" Name="Audio APO - Verify All Formats on Device are Valid - TestCustomFormatSupport" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
