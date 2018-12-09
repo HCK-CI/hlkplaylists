@@ -9,7 +9,7 @@ mv 'HLK Version 1703 CompatPlaylist.xml'            '1703.xml'
 mv 'HLK Version 1709 CompatPlaylist x86_x64.xml'    '1709.xml'
 mv 'HLK Version 1803 CompatPlaylist x86_x64.xml'    '1803.xml'
 mv 'HLK Version 1809 CompatPlaylist x86_x64.xml'    '1809.xml'
-mv 'HLK Version 1809 CompatPlaylist x64 Server.xml' '1809server'xml'
+mv 'HLK Version 1809 CompatPlaylist x64 Server.xml' '1809server.xml'
 
 # Playlists not yet supported by AutoHCK
 rm 'HLK Version 1709 CompatPlaylist ARM64.xml'
