@@ -5803,9 +5803,6 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
 </Test> 
-<Test Id="2e97ccbf-018b-45e0-82f7-16bcf88669e1" Name="Run Dxgkrnl Smasher MITM module" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
 <Test Id="4dea15f0-ac8a-4535-bb8f-2316d75f773e" Name="TDR2 - Large Payload Penalty Compute Application Test" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
