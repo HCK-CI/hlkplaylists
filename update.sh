@@ -1,6 +1,6 @@
 rm *.xml
 wget http://aka.ms/hlkplaylist
-unzip hlkplaylist
+unzip -j hlkplaylist
 rm -r hlkplaylist
 
 # Playlists supported by AutoHCK
