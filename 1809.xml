@@ -205,22 +205,6 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
 </Test> 
-<Test Id="50cf9ccc-bbd3-4514-979f-b0499cb18ed8" Name="SPI WinRT Clock Frequency Verification Tests (mbed LPC1768 Required)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
-<Test Id="00c892e8-c226-4c71-9c2a-68349fed7113" Name="SPI WinRT IO Transfer Tests (mbed LPC1768 Required)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
-<Test Id="20c6b079-62f7-4067-953f-e252bd271938" Name="SPI WinRT Stride Verification Tests" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
-<Test Id="6da79d04-940b-4c49-8f00-333bf0cfbb19" Name="SPI WinRT Transfer Gap Detection Tests (mbed LPC1768 Required)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
 <Test Id="c8c08332-c4da-4110-8288-d94f19e1fdd8" Name="UCSI commands - Get Alternate Modes, connector [Type-C MUTT]" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
@@ -4023,10 +4007,6 @@
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
 </Test> 
-<Test Id="a99d43c0-c233-4a24-8392-7e700a4d0a08" Name="D3D12 - Metacommands - Copy Tensor" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
-<OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
-</Test> 
 <Test Id="60f8a5ea-de7e-4539-a2b0-d687ca257443" Name="D3D12 - Metacommands - Data modification between executions" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
@@ -4769,6 +4749,8 @@
 </Test> 
 <Test Id="acbdb9fe-b3c4-4cde-8207-e0a188e62287" Name="MipFilter (WoW64)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x64 RS5 Full" /> 
+</Test>
+<Test Id="ad7c54db-b8f2-4e77-9595-f8af98e462b0" Name="MR Validation Kit Uploader" Version="1.0">
 </Test> 
 <Test Id="dce302a5-0cb7-45a3-ad6b-7f04670eb44a" Name="MultiHead Support" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Client x86 RS5 Full" /> 
