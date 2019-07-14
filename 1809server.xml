@@ -345,7 +345,10 @@
 </Test> 
 <Test Id="e1f6cc3e-2000-45e8-8bda-44c533adc644" Name="NDISTest 6.5 - [1 Machine] - QosOids" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test>  
+</Test> 
+<Test Id="a02123b6-aeda-4695-86c4-9b37674f37fa" Name="NDISTest 6.5 - [1 Machine] - SRIOVTestingVF" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" />
+</Test> 
 <Test Id="27452a2a-54f9-4e4a-95d8-735b745e843a" Name="NDISTest 6.5 - [1 Machine] - StandardizedKeywords" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
@@ -1648,9 +1651,6 @@
 <Test Id="800e49e0-91fc-4930-97d2-55b257f6e8e4" Name="D3D12 - Metacommands - Convolution" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="a99d43c0-c233-4a24-8392-7e700a4d0a08" Name="D3D12 - Metacommands - Copy Tensor" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="60f8a5ea-de7e-4539-a2b0-d687ca257443" Name="D3D12 - Metacommands - Data modification between executions" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
@@ -2161,6 +2161,12 @@
 <Test Id="0ed22e21-1201-4dfb-a8c6-9d163744f213" Name="Index Buffer (WoW64)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
+<Test Id="402a5324-7e16-428f-9d5d-3e6cf24fb2bd" Name="IPMI" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
+</Test> 
+<Test Id="9188ae9b-bc2d-439c-b26d-67ffa8b1c7b7" Name="IPMIReliability" Version="1.0"> 
+<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
+</Test> 
 <Test Id="768062eb-54e2-46ac-a2fe-690902553e55" Name="Level9 Instancing" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
@@ -2428,6 +2434,9 @@
 <Test Id="d3238e0e-747b-412d-95f4-14fa45beda0c" Name="Primitive Batching (WoW64)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
+<Test Id="7f8c935b-a57a-4e9f-a49a-d58165e7eb83" Name="INF Syntax Test" Version="1.0">
+<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" />
+</Test>
 <Test Id="17ee2eaf-9b21-4e07-bb5e-9f32f4fe33ac" Name="Ratetest (WoW64)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
@@ -4222,43 +4231,16 @@
 <Test Id="b42bd7fc-32b1-4500-8049-a4e00c70eb33" Name="Audio Codec - AC3 Test - Certification - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="eb304880-c6ad-401e-b664-b31c15d5460e" Name="Audio Codec - Audio Engine Core Test (UMACoreTest)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="ff91440c-9557-489b-85e2-38726d34f826" Name="Audio Codec - Audio Engine Test (UMATest)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="d1c32846-fdd3-4efd-b918-baee82cd1a04" Name="Audio Codec - Audio Logo Test - Basic - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="0e27f2dd-2fde-4865-945c-7ca26d508148" Name="Audio Codec - Audio Logo Test - Certification - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="efe246ce-6847-4d60-a113-066336006409" Name="Audio Codec - Audio Logo Test - Glitch - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="16654eec-27a6-4277-bbd1-afce969aedbe" Name="Audio Codec - Class Driver Audio Logo Test - Certification - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="8b2c652c-71c3-4f8b-a1d2-dc40cb660168" Name="Audio Codec - Communications Audio Fidelity Test (Manual) - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="16ab8841-0aa3-4fe1-8d12-2fc9e27cda91" Name="Audio Codec - Device Power State Transition Test " Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="5bc47d11-e275-4309-aa8a-e0ecd0aa76fb" Name="Audio Codec - DRM Test " Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="aae8c46b-044d-4b42-9208-8994a807f88f" Name="Audio Codec - General Audio Test - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="20701a6e-e09d-4e4f-b43b-64a3995d33a5" Name="Audio Codec - Hardware Offload of Audio Processing Test - Basic" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="e115648d-b079-462e-b20f-0d0a7b538aef" Name="Audio Codec - Hardware Offload of Audio Processing Test - Certification" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="c39095c0-c324-4b97-bdc8-455c5d2b5b95" Name="Audio Codec - Hardware Offload of Audio Processing Test - Reliability" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="59caf630-c395-4b6c-b9b1-b6a618dc12e4" Name="Audio Codec - KS Position Test" Version="1.0"> 
@@ -4270,58 +4252,25 @@
 <Test Id="ae5fab5a-51bb-4d66-a675-bb41feb4dae8" Name="Audio Codec - Lullaby Test - Certification - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="05df4da9-a322-4d8d-83fa-49c5fcc3e91e" Name="Audio Codec - Lullaby Test - Functional - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="add1554b-5026-42ce-b15e-f812dfbbf351" Name="Audio Codec - Lullaby Test - Reliability - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="2cd7d686-b209-4708-8536-fa751f009581" Name="Audio Codec - UAA Test (Manual) - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="36b1763e-0c6b-4a6e-a1cf-f4723b8d947b" Name="Audio Codec - USB Audio Logo Test (Manual) - Certification - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="e1a177af-a63d-497b-81a9-560ab49fae8d" Name="Audio Codec - Wave Test - Basic" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="ed35b0cd-7562-446f-92a6-6ed0a42ff1c6" Name="Audio Codec - Wave Test - Certification" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="425872ba-55b3-4e8e-82e6-6077a8a769e7" Name="Audio Codec - Wave Test - Functional" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="b5526f9a-48a6-46b9-a4fe-f301650272ab" Name="Audio Codec - Wave Test - Threshold - Basic" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="e2409f1e-d6ae-4fef-8991-790016959448" Name="Audio Codec - Wave Test - Threshold - Certification" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="77eec9d1-2f1a-40c5-9331-f66575cb8670" Name="Audio Codec - Wave Test - Threshold - Functional" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="16ace5c5-6eff-4169-beed-81f5cf75357a" Name="System Audio - AC3 Test - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="5224db3e-3dba-4187-a5d7-2ba4af7655e3" Name="System Audio - Audio Engine Core Test (UMACoreTest)" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="4890393a-4a9a-46c1-9754-cec0d49d7a60" Name="System Audio - Audio Engine Test (UMATest)" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="16a492f7-a503-4f7e-8c1d-6fd4370b9b65" Name="System Audio - Audio Logo Test - Desktop" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
-<Test Id="7e0233fb-ab35-4a1b-9cce-badc6cbe9421" Name="System Audio - Audio Logo Test - Glitch - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="66881523-0267-47f3-b462-2a54939df417" Name="System Audio - Class Driver Audio Logo Test - Desktop" Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
 <Test Id="a9d71d49-ba51-4fbf-a0b2-3eb11b689565" Name="System Audio - Device Power State Transition Test " Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="cceab657-b901-4dc1-9ef5-c2729e5077a0" Name="System Audio - DRM Test " Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="08a7c6d7-fab0-4bd8-ae4f-75e53cce4509" Name="System Audio - Hardware Offload of Audio Processing Test " Version="1.0"> 
@@ -4340,9 +4289,6 @@
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="facb4182-a34d-47b5-9a4d-16ae7758739a" Name="System Audio - Wave Test " Version="1.0"> 
-<OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
-</Test> 
-<Test Id="adb7b83a-87e2-4d49-aa04-bcd9379bed5b" Name="System Audio - Wave Test - Threshold" Version="1.0"> 
 <OSPlatform Name="Windows v10.0 Server x64 RS5 Full" /> 
 </Test> 
 <Test Id="0fdc517a-281d-460e-ab79-41cbd76bf3a4" Name="Check smart card services (SC Reader LOGO)" Version="1.0"> 
