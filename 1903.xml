@@ -709,11 +709,6 @@
 <OSPlatform Name="Windows v10.0 Client x64 19H1 Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 19H1 Full" />
 </Test>
-<Test Id="eaeb28f5-55ae-4e77-968d-5f7af85c461a" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_CUSTOM enum all, rec and preview" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 19H1 Full" />
-<OSPlatform Name="Windows v10.0 Client x64 19H1 Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 19H1 Full" />
-</Test>
 <Test Id="69e712d1-3256-4ef9-aecf-80436fe41e37" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_HighQualityPhoto is supported, set first index" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 19H1 Full" />
 <OSPlatform Name="Windows v10.0 Client x64 19H1 Full" />
@@ -835,11 +830,6 @@
 <OSPlatform Name="Windows v10.0 Client ARM64 19H1 Full" />
 </Test>
 <Test Id="0e87ca9e-ab1e-4072-8d60-6e8cb2765474" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_CUSTOM enum all, photo and preview" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 19H1 Full" />
-<OSPlatform Name="Windows v10.0 Client x64 19H1 Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 19H1 Full" />
-</Test>
-<Test Id="e6c160c5-a59b-43ad-b05c-56fa8e01b3dc" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_CUSTOM enum all, rec and preview" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 19H1 Full" />
 <OSPlatform Name="Windows v10.0 Client x64 19H1 Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 19H1 Full" />
