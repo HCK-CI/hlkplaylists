@@ -801,11 +801,6 @@
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
 </Test>
-<Test Id="69e712d1-3256-4ef9-aecf-80436fe41e37" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_HighQualityPhoto is supported, set first index" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 VB Full" />
-<OSPlatform Name="Windows v10.0 Client x64 VB Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
-</Test>
 <Test Id="f1eb9979-f0c3-4e80-9b3a-e59ea2d260f2" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_HighQualityPhoto, enum all" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 VB Full" />
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
@@ -817,11 +812,6 @@
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
 </Test>
 <Test Id="1f679093-267b-4711-9e16-7027884f055d" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_VideoRecording enum all" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 VB Full" />
-<OSPlatform Name="Windows v10.0 Client x64 VB Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
-</Test>
-<Test Id="762d18e5-63ca-4611-af55-857f3a218d59" Name="Camera Driver Controls Device Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_VideoRecording is supported, set first index" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 VB Full" />
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
@@ -926,11 +916,6 @@
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
 </Test>
-<Test Id="73f2ddb5-70a3-41e2-a9ed-ee6586ef04cc" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_HighQualityPhoto is supported, set first index" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 VB Full" />
-<OSPlatform Name="Windows v10.0 Client x64 VB Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
-</Test>
 <Test Id="72a21ab5-a93b-4caa-98db-7aeb97987bd0" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_HighQualityPhoto, enum all" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 VB Full" />
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
@@ -942,11 +927,6 @@
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
 </Test>
 <Test Id="651cd315-fbff-45da-8e56-766b34b483f1" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_VideoRecording enum all" Version="1.0">
-<OSPlatform Name="Windows v10.0 Client x86 VB Full" />
-<OSPlatform Name="Windows v10.0 Client x64 VB Full" />
-<OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
-</Test>
-<Test Id="cbdc5f61-8e69-4c77-a404-a5272aa6cd63" Name="Camera Driver Controls System Test - CAMERA_PROFILES - Verify KSCAMERAPROFILE_VideoRecording is supported, set first index" Version="1.0">
 <OSPlatform Name="Windows v10.0 Client x86 VB Full" />
 <OSPlatform Name="Windows v10.0 Client x64 VB Full" />
 <OSPlatform Name="Windows v10.0 Client ARM64 VB Full" />
