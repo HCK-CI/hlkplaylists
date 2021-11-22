@@ -1455,14 +1455,6 @@
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
     <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
-  <Test Id="8e965c45-6212-41b4-99ad-10a16656e9cb" Name="Camera Driver Hardware Privacy Manual Test" Version="1.0">
-    <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
-    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
-  </Test>
-  <Test Id="a0a8e679-8565-45bb-a242-b1036146fdc5" Name="Camera Driver Hardware Privacy Manual Test" Version="1.0">
-    <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
-    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
-  </Test>
   <Test Id="a4defac8-d7f6-4dea-9206-c3b1494e4f9f" Name="Camera Driver Profiles Collect DevPKey Profiles" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
     <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
@@ -5080,9 +5072,11 @@
   </Test>
   <Test Id="2518e324-0ea8-46c4-8eca-12e19d9a290b" Name="D3D12 H264 playback test 15" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
+    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
   <Test Id="5769d109-119e-4584-8f77-5f053f7fd366" Name="D3D12 H264 playback test 16" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
+    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
   <Test Id="a03aa232-1f7e-475b-8084-95b2fe7a5d91" Name="D3D12 H264 playback test 17" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
@@ -5106,6 +5100,7 @@
   </Test>
   <Test Id="c341b0d5-2c03-4f85-a011-180c20c8f31e" Name="D3D12 H264 playback Test 5" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
+    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
   <Test Id="e1953b06-f8b2-4290-b947-2aec322be695" Name="D3D12 H264 playback Test 6" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
@@ -5216,6 +5211,7 @@
   </Test>
   <Test Id="1798c4a4-771c-4d60-867e-b17092737d3b" Name="D3D12 HEVC Playback test 24" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
+    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
   <Test Id="3bba8805-f7e4-4e6e-87ff-df90b76b5afe" Name="D3D12 HEVC Playback test 25" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
@@ -6508,6 +6504,7 @@
   </Test>
   <Test Id="2f065e8e-9010-4afd-901c-2810d888680f" Name="HEVC Playback test 27" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />
+    <OSPlatform Name="Windows v10.0 Client ARM64 CO Full" />
   </Test>
   <Test Id="bd22d729-34e8-496f-91e6-a6501e2c3456" Name="HEVC Playback test 28" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client x64 CO Full" />

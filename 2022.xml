@@ -2764,9 +2764,6 @@
   <Test Id="d6c3fba5-ba8b-42d4-802f-893d9ece70ca" Name="iSCSI Target Digest Test (Disk) (LOGO)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Server x64 FE Full" />
   </Test>
-  <Test Id="ec501820-424e-4415-81ed-6a62005ec451" Name="iSCSI Target iSNS Test (LOGO)" Version="1.0">
-    <OSPlatform Name="Windows v10.0 Server x64 FE Full" />
-  </Test>
   <Test Id="aaaef499-a81a-47c0-8ab4-1641201ece07" Name="iSCSI Target Mutual CHAP Test (LOGO)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Server x64 FE Full" />
   </Test>
