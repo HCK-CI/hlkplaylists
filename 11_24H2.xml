@@ -1979,10 +1979,6 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
-    <Test Id="4fc2e6cb-a474-404b-85d9-59b14b7e894e" Name="Camera Driver System Test - MediaCapture - TestAlternateSecureAndClearMode" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
-    </Test>
     <Test Id="8f6ee662-15db-44d3-b65d-b69fab96c72f" Name="Camera Driver System Test - MediaCapture - TestCaptureStreamWithValidPreviewResolution" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
@@ -2112,14 +2108,6 @@
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
     <Test Id="527d31cd-bd56-429e-ad1d-d05ce1bb3573" Name="Camera Driver System Test - MediaCapture - TestPreview" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
-    </Test>
-    <Test Id="b4ee9abe-2b7c-4170-8da1-108bfedc91f4" Name="Camera Driver System Test - MediaCapture - TestSecurePinAllMediaTypes" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
-    </Test>
-    <Test Id="a7d4a8d2-99f1-4460-8d5b-5deb340e87c8" Name="Camera Driver System Test - MediaCapture - TestSecureTimeStamps" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
@@ -6838,6 +6826,7 @@
     </Test>
     <Test Id="969975f1-fe6c-4333-8b7a-a1f0a6c72de1" Name="Fingerprint Reader Logo Tests" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
     <Test Id="2dec1f67-b506-4434-8bdf-763147ad8f0b" Name="Flush Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
@@ -7962,6 +7951,10 @@
     <Test Id="14b230f3-7eee-437e-ab2f-375b200de6f3" Name="Installable File System Filter Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
+    <Test Id="8ecf8f0a-30b5-4e4c-a5d6-94e2362806c9" Name="InternalPanel - ACM enabled on capable device" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
     <Test Id="b5c12870-0e41-4897-9dd6-3bff0148ecea" Name="InternalPanel - Common color profile problems" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
@@ -7987,10 +7980,6 @@
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
     <Test Id="2d1aed5f-314f-4070-916b-7fea26870720" Name="InternalPanel - Native mode resolution and bit depth" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
-    </Test>
-    <Test Id="8ecf8f0a-30b5-4e4c-a5d6-94e2362806c9" Name="InternalPanel - ACM enabled on capable device" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
@@ -13243,6 +13232,90 @@
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>
     <Test Id="2dac36cb-0c64-4896-b6c4-477c729476e7" Name="XVP test 92" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="ed8298b0-d1de-4ef1-ad1e-2af4a0e57aa6" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - Mandatory formats" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="9f461832-16db-434a-ae84-c512d24cf960" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_1 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="940128a4-61fb-4904-b1d3-23482035cfdf" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_2 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="0784f26f-6575-4146-9f1a-7e71aca282c1" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_3 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="188ad2c2-2efd-422f-bd08-6df77165dbd7" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_4 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="657686f6-a61b-4c02-9aeb-bbd0b49af46c" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_1 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="849e0fd7-8010-445b-a7ef-29d40f79bb94" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_2 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="345a0037-8cfa-4608-861b-490207661438" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_3 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="d2a0e70f-ed79-4c0b-a338-8128dad0f59d" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_4 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="4ce0fc40-7e5b-4550-8c01-f429b12fd7e3" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_1 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="0f03e870-01d1-4676-ae94-539d306beec5" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_2 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="c1bb6468-0178-4990-8e4a-c8ce4c88930b" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_1 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="87ea8bb1-f906-4644-9146-bb262ba55513" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_2 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="dd3b3fe6-a1f5-4657-a693-11c4f4003961" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_1 stereo render; 24_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="7af31d38-8793-4fa6-82f9-10ee34445cb3" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_2 stereo render; 24_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="b5d3685f-8c23-4e0e-82de-8df15e9b7b9b" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_1 stereo render; 24_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="1aaf70cd-f0a9-4152-b41d-dce5f8777432" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_2 stereo render; 24_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="51daf9fb-626b-42f8-bc5c-1b8e86c116f7" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_1 stereo render; 16_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="1c45b432-9c35-485f-bcd1-187518434fdf" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_2 stereo render; 16_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="e16b9436-2c56-4d13-9bd7-4282e38067f4" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_1 stereo render; 16_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
+    </Test>
+    <Test Id="f1958295-ac52-4434-b78e-6ce070ea9dfb" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_2 stereo render; 16_2 mono capture" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Client x64 GE Full" />
     </Test>

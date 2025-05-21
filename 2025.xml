@@ -724,9 +724,6 @@
         <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
-    <Test Id="029c968e-7a9a-415c-b184-865219d4b948" Name="NICStrictPropertyValidation" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
-    </Test>
     <Test Id="2d43a77b-7f14-43f3-b580-c3067762d395" Name="Color Fill" Version="1.0">
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
@@ -4016,6 +4013,9 @@
     <Test Id="6b282f21-9fd5-489b-a4b5-49dc9b5e4760" Name="NDKPerfLogoTest" Version="1.0">
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
+    <Test Id="029c968e-7a9a-415c-b184-865219d4b948" Name="NICStrictPropertyValidation" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
     <Test Id="370a1f0f-a8e2-4b69-9089-ea6940d4bdfe" Name="Non Power 2 Conditional ConfTest" Version="1.0">
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
@@ -5881,6 +5881,90 @@
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
     <Test Id="ab0fb7ce-33da-4979-9190-8674fe11112d" Name="xHCI Debug Capability Device Compliance (Logo)" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="ed8298b0-d1de-4ef1-ad1e-2af4a0e57aa6" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - Mandatory formats" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="9f461832-16db-434a-ae84-c512d24cf960" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_1 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="940128a4-61fb-4904-b1d3-23482035cfdf" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_2 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="0784f26f-6575-4146-9f1a-7e71aca282c1" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_3 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="188ad2c2-2efd-422f-bd08-6df77165dbd7" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_4 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="657686f6-a61b-4c02-9aeb-bbd0b49af46c" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_1 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="849e0fd7-8010-445b-a7ef-29d40f79bb94" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_2 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="345a0037-8cfa-4608-861b-490207661438" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_3 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="d2a0e70f-ed79-4c0b-a338-8128dad0f59d" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 48_4 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="4ce0fc40-7e5b-4550-8c01-f429b12fd7e3" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_1 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="0f03e870-01d1-4676-ae94-539d306beec5" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_2 stereo render; 32_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="c1bb6468-0178-4990-8e4a-c8ce4c88930b" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_1 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="87ea8bb1-f906-4644-9146-bb262ba55513" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 32_2 stereo render; 32_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="dd3b3fe6-a1f5-4657-a693-11c4f4003961" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_1 stereo render; 24_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="7af31d38-8793-4fa6-82f9-10ee34445cb3" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_2 stereo render; 24_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="b5d3685f-8c23-4e0e-82de-8df15e9b7b9b" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_1 stereo render; 24_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="1aaf70cd-f0a9-4152-b41d-dce5f8777432" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 24_2 stereo render; 24_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="51daf9fb-626b-42f8-bc5c-1b8e86c116f7" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_1 stereo render; 16_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="1c45b432-9c35-485f-bcd1-187518434fdf" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_2 stereo render; 16_1 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="e16b9436-2c56-4d13-9bd7-4282e38067f4" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_1 stereo render; 16_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
+        <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
+    </Test>
+    <Test Id="f1958295-ac52-4434-b78e-6ce070ea9dfb" Name="Bluetooth LE Audio VSAP - Stereo Render with Mono Capture - 16_2 stereo render; 16_2 mono capture" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Server ARM64 GE Full" />
         <OSPlatform Name="Windows v10.0 Server x64 GE Full" />
     </Test>
 </Playlist>
