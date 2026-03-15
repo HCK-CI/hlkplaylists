@@ -5443,12 +5443,6 @@
 		<OSPlatform Name="Windows v10.0 Client x64 RS1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Client x64 RS2 Full" /> 
 	</Test> 
-	<Test Id="5bcada95-9836-4c64-bcb7-298ab27382cb" Name="PrivateCloudSimulator - Device.Network.LAN.10GbOrGreater" Version="1.0"> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS2 Full" /> 
-	</Test> 
 	<Test Id="b3f5859d-e47a-41da-9355-b4e11bbfc894" Name="CopyFile Client to Server LOGO test" Version="1.0"> 
 		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
