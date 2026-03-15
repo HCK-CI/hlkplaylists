@@ -19,6 +19,7 @@ mv 'HLK Version 23H2 CompatPlaylist x64 ARM64.xml' '11_23H2.xml'
 mv 'HLK Version 24H2 CompatPlaylist x64 ARM64.xml' '11_24H2.xml'
 mv 'HLK Version 24H2 CompatPlaylist x64 ARM64 SERVER.xml' '2025.xml'
 mv 'HLK Version 25H2 CompatPlaylist x64 ARM64.xml' '11_25H2.xml'
+mv 'HLK Version 26H1 CompatPlaylist x64 ARM64.xml' '11_26H1.xml'
 
 # Playlists not yet supported by AutoHCK
 rm 'HLK Version 1709 CompatPlaylist ARM64.xml'
@@ -37,4 +38,3 @@ rm 'HLK Version 22H2 CompatPlaylist ARM64_x86_on_ARM64.xml'
 rm 'HLK Version 23H2 CompatPlaylist ARM64_x64_on_ARM64.xml'
 rm 'HLK Version 23H2 CompatPlaylist ARM64_x86_on_ARM64.xml'
 rm 'HLK Version 24H2 CompatPlaylist ARM64_x86_on_ARM64.xml'
-rm 'HLK Version 25H2 CompatPlaylist ARM64_x86_on_ARM64.xml'
