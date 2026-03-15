@@ -4533,48 +4533,6 @@
 		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
 	</Test> 
-	<Test Id="5bcada95-9836-4c64-bcb7-298ab27382cb" Name="PrivateCloudSimulator - Device.Network.LAN.10GbOrGreater" Version="1.0"> 
-		<Feature Name="Device.Network.LAN.10GbOrGreater" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="cc85c86e-2a90-42cb-a8a8-c272ce96950e" Name="PrivateCloudSimulator - Device.Network.LAN.AzureStack" Version="1.0"> 
-		<Feature Name="Device.Network.LAN.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="d4bb7c51-51f8-457c-8fa0-04df00b20de7" Name="PrivateCloudSimulator - Device.Storage.Controller.AzureStack" Version="1.0"> 
-		<Feature Name="Device.Storage.Controller.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="545e67e8-bef0-4041-a897-88c32c1e9e80" Name="PrivateCloudSimulator - Device.Storage.Enclosure.AzureStack" Version="1.0"> 
-		<Feature Name="Device.Storage.Enclosure.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="b88a5ee6-81f3-4491-b2c8-f40107dab0c5" Name="PrivateCloudSimulator - Device.Storage.HD.AzureStack" Version="1.0"> 
-		<Feature Name="Device.Storage.Hd.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="03e1c88a-6d4c-4019-91c9-5bf272440a5c" Name="PrivateCloudSimulator - System.Solutions.AzureStack (MIN)" Version="1.0"> 
-		<Feature Name="System.Solutions.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="6e757c1d-eef8-4d11-9a4c-c7e9a06140f0" Name="PrivateCloudSimulator - System.Solutions.StorageSpacesDirect (MIN)" Version="1.0"> 
-		<Feature Name="System.Solutions.StorageSpacesDirect" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
 	<Test Id="b3f5859d-e47a-41da-9355-b4e11bbfc894" Name="CopyFile Client to Server LOGO test" Version="1.0"> 
 		<Feature Name="Device.Network.LAN.KRDMA" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
@@ -23953,18 +23911,6 @@
 		<OSPlatform Name="Windows v10.0 Client x64 TH1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Client x64 TH2 Full" /> 
 		<OSPlatform Name="Windows v10.0 Client x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="153e42a4-877c-4dc9-a788-2242db98c628" Name="PrivateCloudSimulator - System.Solutions.AzureStack (MAX)" Version="1.0"> 
-		<Feature Name="System.Solutions.AzureStack" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-	</Test> 
-	<Test Id="7b1a59ca-c97a-4e6e-a09b-d63a2b93ffd8" Name="PrivateCloudSimulator - System.Solutions.StorageSpacesDirect (MAX)" Version="1.0"> 
-		<Feature Name="System.Solutions.StorageSpacesDirect" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
