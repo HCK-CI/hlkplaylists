@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--Microsoft Confidential. (c) 2025 Microsoft Corporation. All rights reserved. These materials are confidential to and maintained as a trade secret by Microsoft Corporation. Information in these materials is restricted to Microsoft authorized recipients only. Any use, distribution or public discussion of, and any feedback to, these materials is subject to the terms of the Microsoft Collaborate Terms of Use and any Non-Disclosure Agreement you have entered into with Microsoft.-->
-<Playlist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HLK Version 26H1 CompatPlaylist x64 ARM64" xmlns="http://schemas.microsoft.com/hlk/playlist/2014" Version="1.0" Id="cd0cfa6e-4fb7-4133-9caf-daafda13f122">
+<Playlist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HLK Version 26H1 CompatPlaylist x64 ARM64" xmlns="http://schemas.microsoft.com/hlk/playlist/2014" Version="1.0" Id="0ac4a387-6c9d-47c9-83a1-d25126b4dc5b">
   <Test Id="84490225-8259-4a2c-910c-1245f81740d7" Name="[NdisStudio] OidRequestTest - OID_GEN_VENDOR_DRIVER_VERSION Verification" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
@@ -7116,6 +7116,14 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
+  <Test Id="346831f2-468b-4220-b13f-f7f496bc446c" Name="D3D12 HEVC Playback test 48" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
+  <Test Id="41aded74-1f59-4694-8c6d-2ebc655691f5" Name="D3D12 HEVC Playback test 49" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
   <Test Id="5d221025-091b-4f60-ac2d-1949ef3c2efc" Name="D3D12 HEVC Playback test 48 (Rext)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
@@ -7125,6 +7133,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
   <Test Id="abd24ec5-052b-4914-bf9c-0eb1c9cb69f4" Name="D3D12 HEVC Playback Test 5" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
+  <Test Id="c37399cc-b3fd-4c02-9767-26da05c99ae2" Name="D3D12 HEVC Playback test 50" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
@@ -7407,10 +7419,6 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
-  <Test Id="f4f5a8a2-91fe-4508-a75c-24fe46c2b1f3" Name="Display capture tests - Display Mode Change Performance" Version="1.0">
-    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
-    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
-  </Test>
   <Test Id="579d51e8-3cd9-4ad8-a74f-49cf318ebde5" Name="Display capture tests - Embedded DisplayID 2.0" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
@@ -7432,10 +7440,6 @@
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
   <Test Id="f041eba7-ec0b-4edb-915c-ef5735e98f07" Name="Display Monitor Modes - Check EDID support" Version="1.0">
-    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
-    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
-  </Test>
-  <Test Id="b80af82b-6d0b-4ac5-b649-4c02c1242570" Name="DisplayMux Acpi block test" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
@@ -7877,6 +7881,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
   <Test Id="b44302c8-441c-482d-85db-ea11ef3fa916" Name="Gravity Vector Sensor Thresholds Verification Test" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
+  <Test Id="9f351400-f4fa-42b1-8c53-7affb526ee78" Name="GRFX Adapter - Unreleased Features Block" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
@@ -8644,6 +8652,14 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
+  <Test Id="be126366-ec51-4687-93a9-cc17e94a3ec1" Name="HEVC Playback test 48" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
+  <Test Id="130abb81-fdbc-42ff-8af1-d7877f268ae3" Name="HEVC Playback test 49" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
   <Test Id="8a66b095-ba7a-4cd9-86a2-68d673d284c6" Name="HEVC Playback test 48 (Rext)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
@@ -8653,6 +8669,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
   <Test Id="1448c1d0-f822-4bf1-99b2-2a69cb90f068" Name="HEVC Playback Test 5" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
+  </Test>
+  <Test Id="73697eca-671a-42b4-9889-2f783b4ccd1f" Name="HEVC Playback test 50" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 26H1 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 26H1 Full" />
   </Test>
