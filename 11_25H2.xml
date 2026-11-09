@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--Microsoft Confidential. (c) 2025 Microsoft Corporation. All rights reserved. These materials are confidential to and maintained as a trade secret by Microsoft Corporation. Information in these materials is restricted to Microsoft authorized recipients only. Any use, distribution or public discussion of, and any feedback to, these materials is subject to the terms of the Microsoft Collaborate Terms of Use and any Non-Disclosure Agreement you have entered into with Microsoft.-->
-<Playlist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HLK Version 25H2 CompatPlaylist x64 ARM64" xmlns="http://schemas.microsoft.com/hlk/playlist/2014" Version="1.0" Id="81b96ecf-4972-483a-91aa-9c01960be8f9">
+<Playlist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HLK Version 25H2 CompatPlaylist x64 ARM64" xmlns="http://schemas.microsoft.com/hlk/playlist/2014" Version="1.0" Id="7d704187-22df-47da-b0d7-c4ee22844eb0">
   <Test Id="84490225-8259-4a2c-910c-1245f81740d7" Name="[NdisStudio] OidRequestTest - OID_GEN_VENDOR_DRIVER_VERSION Verification" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
@@ -913,6 +913,10 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
+  <Test Id="79cebcc5-8d0e-49d6-aca2-31addd53f588" Name="Bluetooth - 4.0 Specification (2-Machine)" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
   <Test Id="4d331b4f-44f4-41f1-b392-795e5d17d396" Name="Bluetooth - 4LeSpecification (Development and Integration)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
@@ -1013,11 +1017,19 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
+  <Test Id="faf6358b-0863-42df-a95f-8b652a5af9f4" Name="Bluetooth - L2CAP Performance (2-Machine)" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
   <Test Id="5b44ffb4-52a2-4ff8-a2fe-5bc22810e273" Name="Bluetooth - L2CAP Performance (Reliability)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
   <Test Id="13e0e9f5-2b21-4403-86c4-959006106fa2" Name="Bluetooth - LE Audio Broadcast" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="30e16985-15b4-4048-af6a-eb58a70b2eb0" Name="Bluetooth - LE Audio Broadcast (3-Machine)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
@@ -7104,6 +7116,14 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
+  <Test Id="346831f2-468b-4220-b13f-f7f496bc446c" Name="D3D12 HEVC Playback test 48" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="41aded74-1f59-4694-8c6d-2ebc655691f5" Name="D3D12 HEVC Playback test 49" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
   <Test Id="5d221025-091b-4f60-ac2d-1949ef3c2efc" Name="D3D12 HEVC Playback test 48 (Rext)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
@@ -7113,6 +7133,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
   <Test Id="abd24ec5-052b-4914-bf9c-0eb1c9cb69f4" Name="D3D12 HEVC Playback Test 5" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="c37399cc-b3fd-4c02-9767-26da05c99ae2" Name="D3D12 HEVC Playback test 50" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
@@ -8628,6 +8652,14 @@
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
+  <Test Id="be126366-ec51-4687-93a9-cc17e94a3ec1" Name="HEVC Playback test 48" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="130abb81-fdbc-42ff-8af1-d7877f268ae3" Name="HEVC Playback test 49" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
   <Test Id="8a66b095-ba7a-4cd9-86a2-68d673d284c6" Name="HEVC Playback test 48 (Rext)" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
@@ -8637,6 +8669,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
   <Test Id="1448c1d0-f822-4bf1-99b2-2a69cb90f068" Name="HEVC Playback Test 5" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="73697eca-671a-42b4-9889-2f783b4ccd1f" Name="HEVC Playback test 50" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
@@ -9177,6 +9213,134 @@
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
   <Test Id="acbdb9fe-b3c4-4cde-8207-e0a188e62287" Name="MipFilter (WoW64)" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="72205ee4-decf-41f8-8646-9dae0d572507" Name="MITTI2C BasicIOKernel" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="774bf853-aae2-4f1a-99a7-0650e7b82ec1" Name="MITTI2C BasicIORead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="97845f14-9a27-428a-9568-1959f6537114" Name="MITTI2C BasicIOSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="4968d46e-7999-4482-9b07-16999c9275d0" Name="MITTI2C BasicIOWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="01705206-a298-47a8-9f3f-691da1c7608c" Name="MITTI2C BusRecovery" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="9fee93f3-8f12-47d8-8d7f-b770e9d062f9" Name="MITTI2C CancelRead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="0a1a6003-90ee-449c-9e6d-129af7e51f93" Name="MITTI2C CancelSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="b6863753-fa6e-4e8f-846f-a9a26d9dde61" Name="MITTI2C CancelWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="c3e7de57-958a-4f17-a885-a11e82ea14be" Name="MITTI2C ClockStretching" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="d7adbfc3-e650-4be0-bdcd-8f2bb9446405" Name="MITTI2C DeviceNACK" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="3a2f7055-4c33-47da-8d58-1a38ac3310e6" Name="MITTI2C LockUnlock" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="f7412705-99a2-4ca1-ab9c-2a0d03c3544f" Name="MITTI2C PerfRead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="31221b1b-15bf-486e-af13-933481a5422a" Name="MITTI2C PerfSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="f0ee7dea-aafb-4b97-b6bb-367b46eee49d" Name="MITTI2C PerfWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="27c2360a-f473-457b-b6f8-f89ccd2fba47" Name="MITTI2C Power" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="f0744097-2f8d-44d8-b681-2653fd5305a5" Name="MITTI2C Stress" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="4c812eca-069b-43a1-b1b4-d7fae82b4408" Name="MITTSPI BasicFullDuplex" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="495e0c8c-d2bc-40a7-9e59-c4439ab59e24" Name="MITTSPI BasicIOKernel" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="f705fdd0-8d99-4030-a3f5-782265d971a1" Name="MITTSPI BasicIORead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="0d610181-6a58-4f88-9947-6a4fed658455" Name="MITTSPI BasicIOSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="b0c8b3a1-d74e-428f-a6c8-c329190a2798" Name="MITTSPI BasicIOWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="94301fab-3a16-403a-a557-de3ba4e5c9db" Name="MITTSPI CancelFullDuplex" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="1dafad19-35df-450b-b430-71aea505e245" Name="MITTSPI CancelRead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="67ffe1cc-79cd-4023-b45b-315d55d1bca2" Name="MITTSPI CancelSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="da562f6d-6ad5-4d63-bc3b-da83b40083ac" Name="MITTSPI CancelWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="a459a690-4350-4510-ae40-14435f81109a" Name="MITTSPI LockUnlock" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="759ad7fd-ff00-467b-93dd-ef04bd7b5122" Name="MITTSPI PerfFullDuplex" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="16f0cadf-f47e-4091-b9be-bb4b7914dd54" Name="MITTSPI PerfRead" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="e6481502-d32b-4c54-8913-9d783537ac81" Name="MITTSPI PerfSequence" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="00686ee1-b0cd-4068-8007-cc367725f81c" Name="MITTSPI PerfWrite" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="ed58287c-f1d3-46f1-b0ee-8d46002d3d65" Name="MITTSPI Power" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="e9c4fbae-6385-4dff-a560-331f24fef036" Name="MITTSPI Stress" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
@@ -14382,6 +14546,10 @@
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
   <Test Id="2dac36cb-0c64-4896-b6c4-477c729476e7" Name="XVP test 92" Version="1.0">
+    <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
+    <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
+  </Test>
+  <Test Id="af1a1399-b0d2-4782-8dae-2f12423731a1" Name="D3D12 - Dawn End2End Tests" Version="1.0">
     <OSPlatform Name="Windows v10.0 Client ARM64 25H2 Full" />
     <OSPlatform Name="Windows v10.0 Client x64 25H2 Full" />
   </Test>
