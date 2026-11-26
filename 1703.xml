@@ -25486,34 +25486,6 @@
 		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Server x64 RS2 Full" /> 
 	</Test> 
-	<Test Id="b0f44f97-6884-4d9a-a875-dd522de1df01" Name="PrintTicket Conformance Test" Version="1.0"> 
-		<OSPlatform Name="Windows v10.0 Client x86 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 RS2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 RS2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS2 Full" /> 
-	</Test> 
-	<Test Id="59c36ef2-9ec8-494e-bbaa-8fed2dacd376" Name="PrintTicket Test" Version="1.0"> 
-		<OSPlatform Name="Windows v10.0 Client x86 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x86 RS2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Client x64 RS2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 TH2 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS1 Full" /> 
-		<OSPlatform Name="Windows v10.0 Server x64 RS2 Full" /> 
-	</Test> 
 	<Test Id="87d00dc6-7c9c-4de2-9203-4a1304d00498" Name="WSD Print Verify" Version="1.0"> 
 		<OSPlatform Name="Windows v10.0 Client x86 TH1 Full" /> 
 		<OSPlatform Name="Windows v10.0 Client x86 TH2 Full" /> 

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) Microsoft. All rights reserved.-->
-<Playlist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="00000000-0000-0000-0000-000000000000" Version="1.0" Name="HLK Version 23H2 CompatPlaylist x64 ARM64" xmlns="http://schemas.microsoft.com/hlk/playlist/2014">
+<?xml version="1.0" encoding="utf-8"?>
+<!--Microsoft Confidential. (c) 2025 Microsoft Corporation. All rights reserved. These materials are confidential to and maintained as a trade secret by Microsoft Corporation. Information in these materials is restricted to Microsoft authorized recipients only. Any use, distribution or public discussion of, and any feedback to, these materials is subject to the terms of the Microsoft Collaborate Terms of Use and any Non-Disclosure Agreement you have entered into with Microsoft.-->
+<Playlist Id="de142dcb-ea8a-47af-94f3-09d06e162919" Name="HLK Version 23H2 CompatPlaylist x64 ARM64" Version="1.0" xmlns="http://schemas.microsoft.com/hlk/playlist/2014">
     <Test Id="0a0674eb-92d9-4e20-a4f4-2dee3fb5c10f" Name="[Windows USB Device] Basic transfer stress" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -76,16 +76,16 @@
     <Test Id="eab895b4-0fed-433b-b894-922c53419200" Name="[Windows USB Device] Short packet loopback on all pipes" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="904c6bb2-3441-4474-af05-378e87835e46" Name="[Windows USB Device] Short packet loopback on bulk pipes" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="51481a78-9ee6-405c-af47-85b3b41f3fd9" Name="[Windows USB Device] Short packet loopback on bulk pipes" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="08ceb293-967a-4f68-8a55-ed460decce26" Name="[Windows USB Device] Short packet loopback on interrupt pipes" Version="1.0">
+    <Test Id="904c6bb2-3441-4474-af05-378e87835e46" Name="[Windows USB Device] Short packet loopback on bulk pipes" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="01759e9b-9b6a-469e-9197-7623f096ad06" Name="[Windows USB Device] Short packet loopback on interrupt pipes" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="08ceb293-967a-4f68-8a55-ed460decce26" Name="[Windows USB Device] Short packet loopback on interrupt pipes" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="bcdf119a-5b49-471c-b1af-03ae0b658705" Name="[Windows USB Device] Short packet out transfers on all pipes" Version="1.0">
@@ -1072,10 +1072,6 @@
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="e1161c35-7761-438e-8684-559efec9e73b" Name="Camera Driver Controls System Test - FACEDETECTION - Iterate through possible settings while Recording" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
-    <Test Id="057ab4db-e5f4-4ada-bf58-ddf259fe7303" Name="Camera Driver Controls System Test - FACEDETECTION - Verify Default setting" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -3583,15 +3579,15 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="0e5b1908-55a1-4eea-a267-63ec323d285d" Name="D3D12 - DepthCopy Test" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="c4e21a3b-a7cb-47a9-9cc9-a5d9a31a8978" Name="D3D12 - Depth-Read Stencil-Write" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="fe7d0d72-3317-4805-ac57-7484a0e526af" Name="D3D12 - Depth-Write Stencil-Read" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="0e5b1908-55a1-4eea-a267-63ec323d285d" Name="D3D12 - DepthCopy Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -4739,11 +4735,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="74e9a354-4a37-498b-b92b-956cbbbcd073" Name="D3D12 - PSO Deduplication Test" Version="1.0">
+    <Test Id="f1c841b6-0b43-4982-a834-fbed33333aa6" Name="D3D12 - PS-Specified Stencil Reference" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="f1c841b6-0b43-4982-a834-fbed33333aa6" Name="D3D12 - PS-Specified Stencil Reference" Version="1.0">
+    <Test Id="74e9a354-4a37-498b-b92b-956cbbbcd073" Name="D3D12 - PSO Deduplication Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -6873,11 +6869,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="95fe1055-85bb-4e0a-8112-deef6ffad9dd" Name="InvalidHandle" Version="1.0">
+    <Test Id="764492ca-5830-4ae7-b95e-6fde7102eb0d" Name="InvalidHandle" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="764492ca-5830-4ae7-b95e-6fde7102eb0d" Name="InvalidHandle" Version="1.0">
+    <Test Id="95fe1055-85bb-4e0a-8112-deef6ffad9dd" Name="InvalidHandle" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -7528,11 +7524,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="9a079fe6-cd51-465e-b5ab-d5f6174c1567" Name="NFC Power - Get publication handle fails (radio off)" Version="1.0">
+    <Test Id="8d2d4e52-a70d-450a-b25e-6158edbd3ac0" Name="NFC Power - Get publication handle fails (radio off, active publication)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="8d2d4e52-a70d-450a-b25e-6158edbd3ac0" Name="NFC Power - Get publication handle fails (radio off, active publication)" Version="1.0">
+    <Test Id="9a079fe6-cd51-465e-b5ab-d5f6174c1567" Name="NFC Power - Get publication handle fails (radio off)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -7540,15 +7536,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="b4f26174-ef07-4fc5-a5e9-a5e1d7872f40" Name="NFC Power - Get subscription handle fails (radio off)" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="a30e614b-6df3-49c9-be0e-f332a748a0ae" Name="NFC Power - Get subscription handle fails (radio off, active subscription)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="bac9a35a-45f0-4bda-9f12-589df45cb033" Name="NFC Power - Low-power state (radio off)" Version="1.0">
+    <Test Id="b4f26174-ef07-4fc5-a5e9-a5e1d7872f40" Name="NFC Power - Get subscription handle fails (radio off)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -7557,6 +7549,10 @@
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="8b508c6d-ebfc-441c-a2f0-17e30ea79825" Name="NFC Power - Low-power state (radio off, active subscription)" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="bac9a35a-45f0-4bda-9f12-589df45cb033" Name="NFC Power - Low-power state (radio off)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8139,10 +8135,10 @@
     <Test Id="f4fe41e4-62b2-4c58-b131-8f2e51b0bbe3" Name="SCSI Reliability Counters Test (LOGO)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="31b80afd-d448-4199-a14e-1afcf55ec293" Name="SDHC Compliance Test" Version="1.0">
+    <Test Id="0b339365-bf86-4fc3-80f2-12b0a0283b3a" Name="SD-Ioctl Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="0b339365-bf86-4fc3-80f2-12b0a0283b3a" Name="SD-Ioctl Test" Version="1.0">
+    <Test Id="31b80afd-d448-4199-a14e-1afcf55ec293" Name="SDHC Compliance Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="78719b49-ac07-4f4c-95e0-48bf9ea84a3b" Name="Secure Bio Face SDEV Table Exists Test" Version="1.0">
@@ -8644,10 +8640,10 @@
     <Test Id="b0dc780e-5a71-45c1-8dce-93ba311cf16c" Name="TDR2 - Large Payload Penalty Graphics Application Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="7fb1fa3e-d6ce-42bc-b9c6-c24ba1255616" Name="TDR2 - Long Running Compute Packet Expect NO TDR (Interactive)" Version="1.0">
+    <Test Id="b5442f83-eb40-421d-a4a2-682d3cf0a495" Name="TDR2 - Long Running Compute Packet Expect NO TDR (Interactive, PoliceDdi)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="b5442f83-eb40-421d-a4a2-682d3cf0a495" Name="TDR2 - Long Running Compute Packet Expect NO TDR (Interactive, PoliceDdi)" Version="1.0">
+    <Test Id="7fb1fa3e-d6ce-42bc-b9c6-c24ba1255616" Name="TDR2 - Long Running Compute Packet Expect NO TDR (Interactive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="366d25c0-9e10-4644-b57c-643f0d5f273c" Name="TDR2 - Long Running Compute Packet Expect TDR (Interactive)" Version="1.0">
@@ -8656,16 +8652,16 @@
     <Test Id="1a62a186-4a45-4d8d-ae57-86b63d9cb036" Name="TDR2 - Long Running Compute Packet Expect TDR (NonInteractive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="1f5f0483-62a9-42d6-ae37-ebda3ffd3413" Name="TDR2 - Long Running Compute Packet Expect TDR (PoliceDdi)" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="5c53f986-ee9f-4717-850c-dfe1a3e5a65c" Name="TDR2 - Long Running Compute Packet Expect TDR (PoliceDdi, NonInteractive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="d41d1929-ca3f-4967-87c9-e388988b2650" Name="TDR2 - Long Running Graphics Packet Expect NO TDR (Interactive)" Version="1.0">
+    <Test Id="1f5f0483-62a9-42d6-ae37-ebda3ffd3413" Name="TDR2 - Long Running Compute Packet Expect TDR (PoliceDdi)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="bd226bb7-2f8f-4cf5-87bf-9d9bd1f3c4f3" Name="TDR2 - Long Running Graphics Packet Expect NO TDR (Interactive, PoliceDdi)" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="d41d1929-ca3f-4967-87c9-e388988b2650" Name="TDR2 - Long Running Graphics Packet Expect NO TDR (Interactive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="a0f06bc3-82d6-4000-8057-9fa2549c473a" Name="TDR2 - Long Running Graphics Packet Expect TDR (Interactive)" Version="1.0">
@@ -8674,10 +8670,10 @@
     <Test Id="d5b547fa-a7df-4492-b1d7-207c4930fbf6" Name="TDR2 - Long Running Graphics Packet Expect TDR (NonInteractive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="f11a1533-35bb-42fe-b67c-31a825679574" Name="TDR2 - Long Running Graphics Packet Expect TDR (PoliceDdi)" Version="1.0">
+    <Test Id="3872a37e-f42b-4482-88a7-d0ef941c8326" Name="TDR2 - Long Running Graphics Packet Expect TDR (PoliceDdi, NonInteractive)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="3872a37e-f42b-4482-88a7-d0ef941c8326" Name="TDR2 - Long Running Graphics Packet Expect TDR (PoliceDdi, NonInteractive)" Version="1.0">
+    <Test Id="f11a1533-35bb-42fe-b67c-31a825679574" Name="TDR2 - Long Running Graphics Packet Expect TDR (PoliceDdi)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="19b0c579-036f-411b-8c15-882388657f28" Name="TDR2 - Multiple TDR Compute Lockout and Recovery Test (Enumerated Adapter)" Version="1.0">
@@ -8747,15 +8743,11 @@
     <Test Id="b97fb72d-0f43-48e1-82e3-3af4c5bc96ca" Name="Test for EDID Requirements (Manual)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="bfd64bac-b26c-44af-96fd-b78c09b860c3" Name="Test.Aliasing" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="688ba9e3-9e8b-4431-a92c-4f6f6fe17d68" Name="Test.Aliasing" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="1ef0e4cd-9e02-4131-90cf-c46a0132dc33" Name="Test.AudioTouch" Version="1.0">
+    <Test Id="bfd64bac-b26c-44af-96fd-b78c09b860c3" Name="Test.Aliasing" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8763,11 +8755,15 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="c544d252-7dfc-440e-8f59-cc94054dd026" Name="Test.Buffering" Version="1.0">
+    <Test Id="1ef0e4cd-9e02-4131-90cf-c46a0132dc33" Name="Test.AudioTouch" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="3ad165a1-413d-407b-b2ab-b20ca4847635" Name="Test.Buffering" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="c544d252-7dfc-440e-8f59-cc94054dd026" Name="Test.Buffering" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8779,19 +8775,19 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="67e82275-e184-466c-8539-8cdf5103df2a" Name="Test.ConvergeDivergeDiagonal" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="507decc9-006a-420b-a232-960d9d5ef034" Name="Test.ConvergeDivergeDiagonal" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="784c4fd2-25d9-4729-a413-a9a9f8997697" Name="Test.DeviceButton" Version="1.0">
+    <Test Id="67e82275-e184-466c-8539-8cdf5103df2a" Name="Test.ConvergeDivergeDiagonal" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="17cd14f8-bd3b-422e-8148-0ca39d8cd5a0" Name="Test.DeviceButton" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="784c4fd2-25d9-4729-a413-a9a9f8997697" Name="Test.DeviceButton" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8811,11 +8807,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="b5e29276-542d-45a1-bee0-07b9891d5af6" Name="Test.DeviceWidth" Version="1.0">
+    <Test Id="434154ff-abe3-4c06-a599-c03017d36974" Name="Test.DeviceWidth" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="434154ff-abe3-4c06-a599-c03017d36974" Name="Test.DeviceWidth" Version="1.0">
+    <Test Id="b5e29276-542d-45a1-bee0-07b9891d5af6" Name="Test.DeviceWidth" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8827,11 +8823,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="a5a349a3-4487-4dbe-9aa0-69e54ed8bbad" Name="Test.GhostReporting" Version="1.0">
+    <Test Id="12e49f5c-1f24-46cd-b60f-5c753eff40d2" Name="Test.GhostReporting" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="12e49f5c-1f24-46cd-b60f-5c753eff40d2" Name="Test.GhostReporting" Version="1.0">
+    <Test Id="a5a349a3-4487-4dbe-9aa0-69e54ed8bbad" Name="Test.GhostReporting" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8843,11 +8839,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="5eba881d-82b3-40ec-8a75-ad1a320fcb56" Name="Test.LinearityDiagonal" Version="1.0">
+    <Test Id="31a781dc-4a08-4afe-a23f-dd0e2f756857" Name="Test.LinearityDiagonal" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="31a781dc-4a08-4afe-a23f-dd0e2f756857" Name="Test.LinearityDiagonal" Version="1.0">
+    <Test Id="5eba881d-82b3-40ec-8a75-ad1a320fcb56" Name="Test.LinearityDiagonal" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8883,15 +8879,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="93692a6e-13a8-484d-ad1b-0e6ef0b550c7" Name="Test.PowerStateReliability" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="29f1e670-7506-4634-8713-48ea5fbd836a" Name="Test.PowerStateReliability" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="45197fa9-287f-4e0a-8daa-c3907558c67c" Name="Test.PTPHQA" Version="1.0">
+    <Test Id="93692a6e-13a8-484d-ad1b-0e6ef0b550c7" Name="Test.PowerStateReliability" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8899,7 +8891,7 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="968c432e-228d-4d1b-a44e-d7213233a391" Name="Test.ReportRate" Version="1.0">
+    <Test Id="45197fa9-287f-4e0a-8daa-c3907558c67c" Name="Test.PTPHQA" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8907,11 +8899,15 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="59cd2da8-6ef5-45d7-965e-76d61cff1f85" Name="Test.ReportRateMultiple" Version="1.0">
+    <Test Id="968c432e-228d-4d1b-a44e-d7213233a391" Name="Test.ReportRate" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="51944883-7f26-40fb-9674-5ecffb634f35" Name="Test.ReportRateMultiple" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="59cd2da8-6ef5-45d7-965e-76d61cff1f85" Name="Test.ReportRateMultiple" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8931,15 +8927,11 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="c0fcc869-637c-4da4-b7ca-446d6d9158b6" Name="Test.StaticValidation" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="aa63581d-5af9-499c-8d7b-63242b100b9c" Name="Test.StaticValidation" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="6b38725c-f0f6-481e-8473-efceec374978" Name="Test.StationaryJitter" Version="1.0">
+    <Test Id="c0fcc869-637c-4da4-b7ca-446d6d9158b6" Name="Test.StaticValidation" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8947,7 +8939,7 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="c9c3137b-3806-4fc0-add7-9b41093006dd" Name="Test.StationaryJitterMultiple" Version="1.0">
+    <Test Id="6b38725c-f0f6-481e-8473-efceec374978" Name="Test.StationaryJitter" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -8955,11 +8947,15 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="e8001bfd-fca0-489a-81cf-c66662512612" Name="Test.StepMotor" Version="1.0">
+    <Test Id="c9c3137b-3806-4fc0-add7-9b41093006dd" Name="Test.StationaryJitterMultiple" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="e3fce46e-e524-4d69-83e0-bc41f6d8d680" Name="Test.StepMotor" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="e8001bfd-fca0-489a-81cf-c66662512612" Name="Test.StepMotor" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -9665,6 +9661,14 @@
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
+    <Test Id="a7785ba8-e619-4fa9-a709-8404c9e75dfe" Name="USB-IF Certification Validation Test (Controller)" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
+    <Test Id="eaccaddf-d3dc-4d05-9d04-bf2549a54cbd" Name="USB-IF Certification Validation Test (Device)" Version="1.0">
+        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
+        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
+    </Test>
     <Test Id="02af7b0a-8859-414c-9061-bbf9c1b60c73" Name="USB3 Termination" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
@@ -9758,14 +9762,6 @@
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="18eef2c0-9292-4932-ac31-2e305606e2df" Name="USB4 WinUSB 9 Isoch Completions Multi-Thread" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
-    <Test Id="a7785ba8-e619-4fa9-a709-8404c9e75dfe" Name="USB-IF Certification Validation Test (Controller)" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
-    <Test Id="eaccaddf-d3dc-4d05-9d04-bf2549a54cbd" Name="USB-IF Certification Validation Test (Device)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client ARM64 NI Full" />
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -10982,12 +10978,6 @@
     <Test Id="8fa8a507-3867-4319-b7a3-c0460e47a819" Name="WHQL FPO optimization check for kernel video driver(s) (1.2)" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="16ebf42b-f403-4cc7-bdb2-9ed1b2341841" Name="WIA Properties Test" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
-    <Test Id="46e93150-b456-4aaa-a02a-09a93f32fe93" Name="WIA Transfer Test" Version="1.0">
-        <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
-    </Test>
     <Test Id="430878d3-71d3-4458-bd54-6a487f18219b" Name="Wi-Fi Direct Basic Discovery Tests - Functional" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
@@ -11000,10 +10990,10 @@
     <Test Id="312172a5-69f5-4db3-8802-b29866cdb355" Name="Wi-Fi Direct Legacy Pairing Tests - Functional" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="7ef01b28-b321-4683-b000-9135a1e0c8cf" Name="Wi-Fi Direct Service Discovery Tests - Functional" Version="1.0">
+    <Test Id="16ebf42b-f403-4cc7-bdb2-9ed1b2341841" Name="WIA Properties Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="d679f2e5-8338-4047-aaf0-aca975d06bb7" Name="Wi-Fi Direct Service Pairing and Reconnect Tests - Functional" Version="1.0">
+    <Test Id="46e93150-b456-4aaa-a02a-09a93f32fe93" Name="WIA Transfer Test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="4ecf1723-9a15-40e8-9428-56d0f35b0a47" Name="Win6_4.MB.GSM.Data.MBBDriverStress" Version="1.0">
@@ -11460,10 +11450,10 @@
     <Test Id="d7bb7c94-10cf-4275-83cf-2d1cfb8a2a1a" Name="Wlan Test - Enable and Disable WFD Autonomous GO" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="f27109b8-54ce-4279-8276-f5d2b8cb71f3" Name="Wlan Test - MAC Randomization test" Version="1.0">
+    <Test Id="8ae23647-35b9-4535-9c5e-465281d4de61" Name="Wlan Test - MAC Randomization test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="8ae23647-35b9-4535-9c5e-465281d4de61" Name="Wlan Test - MAC Randomization test" Version="1.0">
+    <Test Id="f27109b8-54ce-4279-8276-f5d2b8cb71f3" Name="Wlan Test - MAC Randomization test" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="26568a8c-39cb-46ef-b8b8-e1bc835b05c1" Name="Wlan Test - Query All Reported Oids" Version="1.0">
@@ -11502,10 +11492,10 @@
     <Test Id="78796efa-d844-4ccb-ab95-5bc54f002410" Name="Wlan Test - Wlan Device enumeration" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="ab3df3e5-1f37-46e4-9da9-a9663c803fb5" Name="Wlan Test - Wlan Device Reset Check" Version="1.0">
+    <Test Id="0e1d7d53-f0e3-4d28-9e5d-9ec28f3e04e9" Name="Wlan Test - Wlan Device Reset Check" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="0e1d7d53-f0e3-4d28-9e5d-9ec28f3e04e9" Name="Wlan Test - Wlan Device Reset Check" Version="1.0">
+    <Test Id="ab3df3e5-1f37-46e4-9da9-a9663c803fb5" Name="Wlan Test - Wlan Device Reset Check" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="798d6fe1-39ea-4800-b782-add4e7aa6b04" Name="WLAN Wake - Association Lost - Functional" Version="1.0">
@@ -11586,10 +11576,10 @@
     <Test Id="cf4b76ad-85dc-4d3c-9e7f-f754db303bd3" Name="WMV fuzz test 3" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="4c1d16a3-4046-5d3f-5df7-df9d85d10759" Name="WMV multiInstance test 405" Version="1.0">
+    <Test Id="226c688f-5958-4aea-a1df-3e6c487005cc" Name="WMV Multi-Instance test 406" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="226c688f-5958-4aea-a1df-3e6c487005cc" Name="WMV Multi-Instance test 406" Version="1.0">
+    <Test Id="4c1d16a3-4046-5d3f-5df7-df9d85d10759" Name="WMV multiInstance test 405" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="24492957-daae-4a9a-963c-e006f18bbe24" Name="WMV playback test 1" Version="1.0">
@@ -11667,10 +11657,10 @@
     <Test Id="0d76407a-0fe0-46db-ae66-a6aa14cf82e3" Name="WPD Compliance Tests - Model ID" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="44474539-5551-4f42-8e42-d3599888ca2f" Name="WPD Compliance Tests - MultiSession" Version="1.0">
+    <Test Id="a25f89eb-4db6-42e5-b492-853be4308726" Name="WPD Compliance Tests - Multi-Transport" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
-    <Test Id="a25f89eb-4db6-42e5-b492-853be4308726" Name="WPD Compliance Tests - Multi-Transport" Version="1.0">
+    <Test Id="44474539-5551-4f42-8e42-d3599888ca2f" Name="WPD Compliance Tests - MultiSession" Version="1.0">
         <OSPlatform Name="Windows v10.0 Client x64 NI Full" />
     </Test>
     <Test Id="57e10170-7ec7-4e69-ae97-dcb9fe38c738" Name="WPD Compliance Tests - Property Management" Version="1.0">
